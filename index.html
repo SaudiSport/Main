@@ -1,8 +1,54 @@
-<html>
-    <header>
-  
-    </header>
-    <h1>
-        <a href="https://saudisport.github.io/_/" target="_blank" class="my-button">دخول</a>
-    </h1>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دخول</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .my-button {
+            /* يغطي الشاشة بالكامل بالمعنى الحرفي */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            
+            /* التنسيقات والألوان */
+            background-color: #e8f5e9; /* أخضر خفيف */
+            color: #2e7d32; /* نص أخضر غامق واضح */
+            border: 4px solid #ffffff; /* فريم أبيض */
+            box-sizing: border-box;
+            
+            /* توسيط النص في منتصف الشاشة */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+            
+            /* فوق كل الطبقات */
+            z-index: 99999;
+        }
+
+        .my-button:active {
+            background-color: #c8e6c9;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- الرابط الخاص بك -->
+    <a href="https://saudisport.github.io/_/" target="_blank" class="my-button">
+        دخول 🚀
+    </a>
+
+</body>
 </html>
